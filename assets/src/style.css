@@ -190,5 +190,6 @@ body::-webkit-scrollbar {
 
     .my-project:hover {
         border: none;
+        box-shadow: none;
     }
 }
