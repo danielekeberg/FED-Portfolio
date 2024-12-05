@@ -1,6 +1,7 @@
 * {
     background: #0e0e0e;
-    font-family: 'Inika', serif;
+    /* font-family: 'Inika', serif; */
+    font-family: 'Poppins', serif;
     color: #ffff;
     margin: 0;
 }
@@ -32,26 +33,48 @@ header .logo a {
 }
 
 main {
-    width: 1000px;
+    width: 60%;
     margin: 0 auto;
 }
 
 .aboutme {
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
     margin: 25px 0;
+    padding: 0 20px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #fff;
 }
+
+.aboutme-text p {
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.aboutme img {
+    height: 250px;
+}
+
 
 .my-project {
     display: flex;
     max-height: 250px;
     margin: 50px 0;
     padding: 20px;
+    cursor: pointer;
 }
 
 .my-project:hover {
-    border: 1px solid #fff;
+    border: 1px solid #ffffff70;
     border-radius: 4px;
     padding: 19px;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+.projects {
+    border-bottom: 1px solid #fff;
 }
 
 .projects a {
@@ -59,7 +82,8 @@ main {
 }
 
 .projects h2 {
-    margin-top: 100px;
+    margin-top: 50px;
+    padding: 0 20px;
 }
 
 .projects .my-project .project-img img {
@@ -97,6 +121,12 @@ main {
 
 #img-right {
     margin-right: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
 
 .footer p {
