@@ -17,10 +17,15 @@ header {
 }
 
 header .nav-buttons {
-    display: inline-flex;
-    align-items: center;
+    display: flex;
     gap: 50px;
     cursor: pointer;
+    height: 25px;
+    padding: 25px 0;
+}
+
+header .nav-buttons a:hover {
+    border-bottom: 1px solid #fff;
 }
 
 header .nav-buttons a {
@@ -113,6 +118,7 @@ main {
 .my-project .project-info .github-repo {
     display: flex;
     justify-content: center;
+    height: 25px;
 }
 
 #img-left {
