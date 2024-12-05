@@ -1,6 +1,6 @@
 # Daniel Ekeberg Portfolio
 
-![image](https://i.ibb.co/fYbt7Sj/image-4.png)
+![image](https://i.ibb.co/9n98y5S/image-5.png)
 
 ## Description
 
