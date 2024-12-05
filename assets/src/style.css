@@ -57,7 +57,6 @@ main {
     height: 250px;
 }
 
-
 .my-project {
     display: flex;
     max-height: 250px;
@@ -108,6 +107,7 @@ main {
 
 .my-project .project-info .github-repo a:hover {
     color: #c5c5c5;
+    border-bottom: 1px solid #c5c5c5;
 }
 
 .my-project .project-info .github-repo {
