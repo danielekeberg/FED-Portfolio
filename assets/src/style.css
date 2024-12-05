@@ -94,3 +94,7 @@ main {
 #img-right {
     margin-right: 50px;
 }
+
+.footer p {
+    font-size: 14px;
+}
