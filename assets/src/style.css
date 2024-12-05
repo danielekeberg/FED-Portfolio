@@ -38,7 +38,7 @@ header .logo a {
 }
 
 main {
-    width: 60%;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -66,7 +66,7 @@ main {
 
 .my-project {
     display: flex;
-    max-height: 250px;
+    max-height: 300px;
     margin: 50px 0;
     padding: 20px;
     cursor: pointer;
@@ -144,4 +144,47 @@ main {
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+@media (max-width: 1000px) {
+    main {
+        width: 100%;
+    }
+
+    .header {
+        margin: 50px 20px;
+    }
+
+    header .logo a {
+        font-size: 36px;
+    }
+
+    .my-project {
+        display: block;
+        height: auto;
+    }
+
+    .my-project img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header .logo a {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .aboutme {
+        display: block;
+    }
+
+    .aboutme img {
+        margin-top: 25px;
+    }
+
+    .my-project {
+        height: auto;
+        min-height: 400px;
+    }
 }
