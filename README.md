@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-You can visit the live site [here]!(https://danielekeberg.netlify.app/)
+You can visit the live site [here!](https://danielekeberg.netlify.app/)
 
 ## Contact
 
