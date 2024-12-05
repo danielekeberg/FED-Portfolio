@@ -187,4 +187,8 @@ body::-webkit-scrollbar {
         height: auto;
         min-height: 400px;
     }
+
+    .my-project:hover {
+        border: none;
+    }
 }
