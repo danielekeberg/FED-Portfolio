@@ -9,8 +9,8 @@
 
 ## Built With
 
-- [HTML]
-- [CSS]
+- HTML
+- CSS
 
 ## Live Demo
 
@@ -20,7 +20,7 @@ You can visit the live site at: [www.danielekeberg.com](https://www.danielekeber
 
 Feel free to connect with me:
 
-- Email: [your-email@example.com](mailto:your-email@example.com)
+- Email: [danieleke@live.no](mailto:danieleke@live.no)
 - GitHub: [danielekeberg](https://github.com/danielekeberg)
 
 ---
