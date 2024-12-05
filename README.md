@@ -1,22 +1,28 @@
-# Your project title
+# Daniel Ekeberg Portfolio
 
 ![image](https://i.ibb.co/fYbt7Sj/image-4.png)
 
-A simple overview of the use/purpose of the project.
-
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+- **Project Showcase**: Highlights my projects with descriptions and links to live demos and repositories.
+- **Clean Design**: A modern and minimalist interface.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
 - [HTML]
 - [CSS]
+
+## Live Demo
+
+You can visit the live site at: [www.danielekeberg.com](https://www.danielekeberg.com)
+
+## Contact
+
+Feel free to connect with me:
+
+- Email: [your-email@example.com](mailto:your-email@example.com)
+- GitHub: [danielekeberg](https://github.com/danielekeberg)
+
+---
+
+Thank you for visiting my portfolio!
