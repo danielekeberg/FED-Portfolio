@@ -58,6 +58,10 @@ main {
     text-decoration: none;
 }
 
+.projects h2 {
+    margin-top: 100px;
+}
+
 .projects .my-project .project-img img {
     height: 200px;
     border-radius: 3px;
@@ -97,4 +101,8 @@ main {
 
 .footer p {
     font-size: 14px;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
