@@ -225,4 +225,8 @@ body::-webkit-scrollbar {
     .img-mobile img {
         display: block;
     }
+
+    .my-project .project-info .github-repo {
+        opacity: 1;
+    }
 }
