@@ -1,5 +1,4 @@
 * {
-    background: #0e0e0e;
     /* font-family: 'Inika', serif; */
     font-family: 'Poppins', serif;
     color: #ffff;
@@ -8,6 +7,10 @@
 
 header {
     border-bottom: 1px solid #fff;
+}
+
+body {
+    background: #0e0e0e;
 }
 
 .header {
@@ -38,7 +41,7 @@ header .logo a {
 }
 
 main {
-    width: 1000px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -70,13 +73,12 @@ main {
     margin: 50px 0;
     padding: 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .my-project:hover {
-    border: 1px solid #ffffff70;
-    border-radius: 4px;
-    padding: 19px;
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    background: #161616;
+    border-radius: 5px;
 }
 
 .projects {
@@ -94,8 +96,10 @@ main {
 
 .projects .my-project .project-img img {
     height: 200px;
+    width: 400px;
     border-radius: 3px;
     border: 1px solid #ffffff70;
+    object-fit: cover;
 }
 
 .project-info h3 {
@@ -122,6 +126,14 @@ main {
     display: flex;
     justify-content: center;
     height: 25px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: translateY(100%);
+}
+
+.my-project:hover .github-repo {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #img-left {
@@ -175,6 +187,10 @@ body::-webkit-scrollbar {
 
     .my-project img {
         display: none;
+    }
+
+    .test-container {
+        display: block;
     }
 }
 
