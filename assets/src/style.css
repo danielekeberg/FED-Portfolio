@@ -87,6 +87,10 @@ main {
     border-radius: 3px;
 }
 
+.aboutme-light img {
+    border: 1px solid #0e0e0e;
+}
+
 .my-project {
     display: flex;
     max-height: 300px;
@@ -124,6 +128,10 @@ main {
     border-radius: 3px;
     border: 1px solid #ffffff70;
     object-fit: cover;
+}
+
+.projects .light .project-img img {
+    border: 1px solid #0e0e0e;
 }
 
 .project-info h3 {
