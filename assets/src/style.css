@@ -5,12 +5,32 @@
     margin: 0;
 }
 
+:root {
+    --background-color: #0e0e0e;
+    --text-color: #fff;
+}
+
 header {
     border-bottom: 1px solid #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+a,
+span {
+    color: var(--text-color);
+}
+
 body {
-    background: #0e0e0e;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+body.light-mode {
+    --background-color: #fff;
+    --text-color: #0e0e0e;
 }
 
 .header {
@@ -79,6 +99,10 @@ main {
 .my-project:hover {
     background: #161616;
     border-radius: 5px;
+}
+
+.light:hover {
+    background: #e6e6e6;
 }
 
 .projects {
