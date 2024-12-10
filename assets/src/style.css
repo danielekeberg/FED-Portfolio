@@ -48,7 +48,7 @@ header .nav-buttons {
 }
 
 header .nav-buttons a:hover {
-    border-bottom: 1px solid #fff;
+    text-decoration: underline;
 }
 
 header .nav-buttons a {
@@ -102,7 +102,7 @@ main {
 }
 
 .light:hover {
-    background: #e6e6e6;
+    background: #d6d6d6;
 }
 
 .projects {
@@ -139,6 +139,11 @@ main {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
+}
+
+.aLight:hover {
+    color: #4b4b4b !important;
+    border-bottom: 1px solid #4b4b4b !important;
 }
 
 .my-project .project-info .github-repo a:hover {
