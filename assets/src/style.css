@@ -61,7 +61,8 @@ header .logo a {
 }
 
 main {
-    width: 1250px;
+    width: 100%;
+    max-width: 1250px;
     margin: 0 auto;
 }
 
@@ -161,7 +162,7 @@ main {
 
 .my-project .project-info .github-repo {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     height: 25px;
     opacity: 0;
     transition: all 0.3s ease;
@@ -260,7 +261,7 @@ body::-webkit-scrollbar {
 
     .my-project {
         min-height: 600px;
-        border-bottom: 1px solid #ffffff70;
+        background: #161616;
     }
 
     .my-project:hover {
